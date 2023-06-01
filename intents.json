@@ -1,0 +1,109 @@
+
+{"intents":[
+        {
+          "tag":"welcome_greetings",
+          "patterns":["hello","hi","hii","Hi","hola","namaste","is anyone there","how can you help me?","what do you do?","what can you help me with?"],
+          "responses":["Hello. \n I will help you with Hotel related queries. \n I will also help you with best local recommendations for food and travel. \n what do you want to know? \n --->Hotel information \n --->Freetime Advices \n --->Intresting facts about Devbhoomi."],
+          "context":[""]
+        },
+        {
+          "tag":"hotel_info",
+          "patterns": ["Hotel information","Hotel info","information of the hotel","info"],
+          "responses":["We provide the following:- \n *we provide rooms having TV with cabel.\n *free wifi access.\n *Great view of Himalyas.\n *Room service with free laundry.\n *free parking.\n *Well trained staff.\n\n Press Y to know more "],
+          "context":[""]
+        },
+        {
+          "tag":"hotelinfo_y",
+          "patterns":["yes","yes i wish to know more","y"],
+          "responses":["choose one-\n*Check in check outs\n*Extra Services\n*Find us on maps\n*Call the reception"],
+          "context":[""]
+        },
+        {
+          "tag":"check_in_out",
+          "patterns":["check in","check outs","check in and check outs","check in/check out","i want to know about check in and check outs","checking in out"],
+          "responses":["Thanks for asking\n\n------check in timing->2 PM\n------check out timing->11 AM"],
+          "context":[""]
+        },
+        {
+          "tag":"extra_services",
+          "patterns":["do you offer extra services?","what more can you offer?","What are the extra servies provided?","Extra services","what are extra services","What comes under extra services?","differnt programmes and services"],
+          "responses":["we provide following services to make your stay more fun:-\n  --: Spa and Physiotherapy\n  --: Ayurvedic Treatments\n  --: Yoga and Meditation programmes\n  --: Nature walks and treks\n --: White water rafting\n --: Safari\n --: Stress and Weight Management Programmes "],
+          "context":[""]
+        },
+        {
+          "tag":"Find_us_on_Maps",
+          "patterns":["what is your location?","how to reach?","location","maps","find us on maps","where is this hotel","are you in uttrakhand","Himalayas"],
+          "responses":["Anandas is located on the hill overlooking the ancient spiritual city of Rishikesh.\n Address-->The Palace Estate,Narendra Nagar, Uttrakhand, 249175\n Google map link--> https://goo.gl/maps/X5paxVuaxXMGXnNV6"],
+          "context":[""]
+        },
+        {
+          "tag":"Call_reception",
+          "patterns":["not satisfied","talk to human","connect me to human representative","talk over phone","talk to a person","still have doubts","call the reception"],
+          "responses":["still got doubts?\nConnect to a human representative over call\ncontact number--1234567890"],
+          "context":[""]
+        },
+        {
+          "tag":"Freetime_advices",
+          "patterns":["what are the freetime advices?","Freetime advices","any advice","what to do on freetime"],
+          "responses":["As a tourist one is most intrested in two things that is:-\n>>>what to visit\n>>>what to shop\nChoose and we will recommend you the best."],
+          "context":[""]
+        },
+        {
+          "tag":"what_to_visit",
+          "patterns":["what to visit","nearby places to visit","what is uttrakhand famous for","uttrakhand","famous places to visit"],
+          "responses":["Uttrakhand,popularly known as devbhoomi because of its spiritual and cultural importance in Hindus mythologies,has many beautiful places to visit.Some of them are:-\n\n------>MUSSOORIE:- Located in the midst of Garhwal Himalayan ranges, Mussoorie enjoys a wonderful weather all the year round. Some of the must-visit places in Mussoorie are Kempty Falls, Lal Tibba and The Mall. Home to different hills, lakes, and temples, this place derives its name from a shrub known as Mansoor, which is found here in large quantities.\n\n------>RISHIKESH:-  Rishikesh offers a perfect combination of adventure and serenity. Situated on banks of the holy river Ganges, Rishikesh is known as “Yoga Capital of the World”.this place is renowned for ashrams, which are known for teaching spirituality, meditation and Ayurveda.\n\n------>JIM CORBETT:-  Jim Corbett attracts wildlife enthusiasts and nature lovers from far and wide. This national park is home to a diverse range of flora and fauna, and is definitely a  treat for sore eyes. Enjoying a pleasant climate, the park organizes hiking trails as well as safari rides\n\n------>NEW TEHRI:-  New Tehri is the only planned city in Uttarakhand. This beautiful place boasts of the biggest and highest dam in India i.e. Tehri Dam. One of the biggest hydro electrical projects, this dam is known to draw water from two major rivers – Bhagirathi and Bhilangan.\n\n------>LANDOUR:-  Home to one of India”s renowned author, Ruskin Bond, this beautiful town is located in close proximity to Dehradun. This is amongst those places which have not been touched by commercialization and continues to be a place where one can unwind in serenity.This place is also renowned for homemade jams as well as delectable cheese. "],
+          "context":[""]
+        },
+        {
+          "tag":"What_to_Shop",
+          "patterns":["what to shop?","what things to buy in uttrakhand?","shopping advice","must buy things in uttrakhand","souvenirs to take back"],
+          "responses":["MOST IMPORTANT PART AS THE JOURNEY COMES TO END IS THE SOUVENIRS THAT TRAVELLERS TAKE BACK WITH THEM\n Here are some of our recommendations:-\n\n>>>RAMBAANS HANDICRAFTS---- Rambans handicraft is done by using jute and hemp. The fibers are used in creating shopping worthy items like bags, purses, wall hangings and showpieces. \n\n>>>ANGORA AND PASHMINA-----Woollens in Uttarakhand are the best buys, not only the state sells them at an affordable price but also knits and weaves some fine quality and attractive woollens. \n\nSPICES AND PICKLES------One of the famous things to buy while shopping in Uttarakhand is the fresh jam. It is way more delicious and fresh than the ones you buy from those shelves in supermarts.Some of the best pickles to buy are mushrooms, lotus stem, and mixed pickle.\n\n>>>JUCIES AND WINES----The Rhododendron wine in Uttarakhand is quite a product to buy and so is the honey and variety of jellies, juices and squash."],
+          "context":[""]
+        },
+        {
+          "tag":"Intresting_facts",
+          "patterns":["what is uttrakhand","importance of uttrakhand","facts about uttrakhand","intresting facts"],
+          "responses":["Here are some intresting facts about Devbhoomi Uttrakhand-->\n\n * Chipko Movement took place in 1970's in Uttrakhand when a group of villagers hugged trees to prevent them from cutting\n * TUNGNATH is the highest Lord Shiva Temple in the world\n * Two most sacred rives(GANGA and YAMUNA) as per hindus beliefs originate from Uttrakhand\n * JIM CORBETT, the oldest national park of India is in Uttrakhand.\n * Second highest peak of India ,NANDA DEVI, is in Uttrakhand.\n * Tallest Dam of India,TEHRI DAM, is in Uttrakhand,\n * Uttrakhand is the only state to have Sanskrit as its official language.\n * Uttrakhand is the YOGA CAPITAL of the world.\n * Only state to give priorities to ayurvedic treatments\n * THE BEATLES travelled to Rishikesh in 1968 to attend Mahesh yogi's transcendental medidation training.They spent 3 months here and composed 48 songs"],
+          "context":[""]
+        },
+        {
+          "tag": "goodbye",
+          "patterns": ["Bye","byee","Byee","See you soon", "See you later", "Goodbye","ok, bye","ok","okk","Nice chatting to you, bye", "Till next time"],
+          "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+          "context": [""]
+        },
+
+        {
+          "tag": "thanks",
+          "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+          "responses": ["Happy to help!", "Any time!", "My pleasure"],
+          "context": [""]
+        },
+        {
+         "tag":"no",
+         "patterns":["no","n","i don't want to know more"],
+         "responses":["Is there anything i can help you with?","it's my pleasure to help."],
+         "context":[""]
+        },
+
+        {
+          "tag": "noanswer",
+          "patterns":[],
+          "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+          "context": [""]
+        },
+        {
+          "tag":"name",
+          "patterns":["What is your name","who are you"],
+          "responses":["Hello my name is bot,how can i help you?"],
+          "context":[""]
+        },
+        {
+          "tag":"general",
+          "patterns":["how are you?","are you okay?","what's up","how is it going"],
+          "responses":["I am doing great, thanks for asking, I hope you are doing well too"],
+          "context":[""]
+
+        }
+]
+}
